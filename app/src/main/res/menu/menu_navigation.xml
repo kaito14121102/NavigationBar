@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/giohang"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/laptop"
+            android:title="Laptop" />
+        <item
+            android:id="@+id/nap_phukien"
+            android:icon="@drawable/map"
+            android:title="Phụ kiện" />
+        <item
+            android:id="@+id/nav_thongtin"
+            android:icon="@drawable/time"
+            android:title="Thông tin tài khoản" />
+    </group>
+
+    <item android:title="Liên hệ">
+        <menu>
+            <item
+                android:id="@+id/nav_timsieuthi"
+                android:icon="@drawable/map"
+                android:title="Tìm siêu thị gần nhất" />
+            <item
+                android:id="@+id/nav_tongdai"
+                android:icon="@drawable/phone"
+                android:title="Tổng đài:098102726" />
+        </menu>
+    </item>
+
+</menu>
